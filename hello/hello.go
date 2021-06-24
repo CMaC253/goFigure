@@ -5,9 +5,11 @@ package main
 
 //import fmt, which contains functions for
 //formatting text.
-import "fmt"
+import (
+	"fmt"
 
-import "rsc.io/quote"
+	"rsc.io/quote"
+)
 
 //main function executes by default to print message
 func main() {
